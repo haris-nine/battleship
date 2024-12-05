@@ -3,9 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>battleship</title>
+    <title>Battleships Game</title>
   </head>
   <body>
-    <h1>Hi, github</h1>
+    <div class="game-container">
+      <h1>Battleships</h1>
+      <div class="game-status">
+        <p id="game-message">Place your ships!</p>
+        <p id="ships-remaining">Ships remaining: 5</p>
+      </div>
+      <div class="game-boards">
+        <div class="board player-board" id="player-board"></div>
+        <div class="board computer-board" id="computer-board"></div>
+      </div>
+      <div class="game-controls">
+        <button id="rotate-ship">Rotate Ship</button>
+        <button id="start-game">Start Game</button>
+        <button id="reset-game">Reset Game</button>
+      </div>
+    </div>
   </body>
 </html>
